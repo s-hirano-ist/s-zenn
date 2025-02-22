@@ -10,7 +10,7 @@ published: true
 
 ## はじめに
 
-ただのフロントエンドエンジニアがDifyをMacで動かした備忘録第一段です。
+ただのフロントエンドエンジニアがDifyをMacで動かした備忘録です。
 なお、各手順は公式READMEを参考にしております。
 
 ## 実行環境
@@ -22,7 +22,7 @@ published: true
 
 1. 事前準備
 
-   1. [Docker Desktop](https://www.docker.com/ja-jp/)のインストールト起動
+   1. [Docker Desktop](https://www.docker.com/ja-jp/)のインストールと起動
 
 1. [Dify](https://github.com/langgenius/dify)の環境構築
 
@@ -36,16 +36,14 @@ published: true
 
 1. [Dify](https://github.com/langgenius/dify)の初期セットアップ
 
-    [http://localhost/install](http://localhost/install)にアクセスし、会員登録
+   [http://localhost/install](http://localhost/install)にアクセスし、会員登録
 
-   ![](/images/dify/setup-1.png)
-
-   ![](/images/dify/setup-2.png)
+   :::message
+   ローディングが終わらない場合は、ブラウザをリロードすると次に進める場合があります。
+   :::
 
 ## 感想
 
 想像以上に簡単にセットアップできて驚きです。Dockerはやはり神だ。
-
-![](/images/dify/setup-3.png)
 
 次回はDifyとOllamaを用いてローカルLLMを動かしたいと思います。
