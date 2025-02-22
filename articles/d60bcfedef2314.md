@@ -1,13 +1,11 @@
 ---
-title: "30分でmacとdockerでローカルLLM環境構築メモ"
+title: "10分で動かすDify（Mac×Docker×Dify編）"
 emoji: "🐷"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics:
   - "mac"
-  - "llm"
   - "dify"
-  - "deepseek"
-published: false
+published: true
 ---
 
 各手順は公式READMEを参考に実行しております。
@@ -35,16 +33,16 @@ published: false
 
 1. [Dify](https://github.com/langgenius/dify)の初期セットアップ
 
-[http://localhost/install](http://localhost/install)にアクセスし、会員登録
+    [http://localhost/install](http://localhost/install)にアクセスし、会員登録
 
-1. [Ollama](https://github.com/ollama/ollama)の環境構築
+   ![](/images/dify/setup-1.png)
 
-   ```bash
-   docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
-   ```
+   ![](/images/dify/setup-2.png)
 
-1. [Ollama](https://github.com/ollama/ollama)の実行
+## 感想
 
-   ```bash
-   docker exec -it ollama ollama run deepseek-r1
-   ```
+想像以上に簡単にセットアップできて驚きです。Dockerはやはり神だ。
+
+![](/images/dify/setup-3.png)
+
+次回はDifyとOllamaを用いてローカルLLMを動かしたいと思います。
