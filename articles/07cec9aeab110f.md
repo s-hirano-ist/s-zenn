@@ -1,5 +1,5 @@
 ---
-title: "10分で動かすローカルLLMとRAG（Mac×Docker×Dify×DeepSeek編）"
+title: "10分で動かすローカルLLMとRAG（Mac×Docker×Dify編）"
 emoji: "🐷"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics:
@@ -9,7 +9,6 @@ topics:
   - "ollama"
   - "embedding"
   - "rag"
-  - "deepseek"
 published: true
 ---
 
