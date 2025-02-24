@@ -1,5 +1,5 @@
 ---
-title: "10分で動かすDify（Mac×Docker×Dify編）"
+title: "10分で動かすDify（Mac×Docker×Dify）"
 emoji: "🐷"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics:
