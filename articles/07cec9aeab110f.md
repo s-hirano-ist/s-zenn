@@ -8,7 +8,7 @@ topics:
   - "llm"
   - "ollama"
   - "rag"
-published: true
+published: false
 ---
 
 ## はじめに
